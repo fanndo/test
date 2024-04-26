@@ -8,7 +8,7 @@ const getCategories = async(req, res = response ) => {
     //                         .populate('usuario', 'nombre')
     //                         .populate('categoria', 'nombre');
 
-    res.json( {id} );
+    res.json( {id, ok:'categoria'} );
 
 }
 
